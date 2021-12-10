@@ -17,26 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="quD-CG-fcy">
-                                <rect key="frame" x="40" y="64" width="334" height="379"/>
+                                <rect key="frame" x="20" y="64" width="374" height="376.5"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="b14-TT-vLy">
-                                <rect key="frame" x="40" y="463" width="334" height="379"/>
+                                <rect key="frame" x="20" y="460.5" width="374" height="376.5"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="b14-TT-vLy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="BhR-cr-TNL"/>
-                            <constraint firstItem="quD-CG-fcy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="C4V-xT-oEk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b14-TT-vLy" secondAttribute="bottom" constant="20" id="NEX-YD-B3H"/>
-                            <constraint firstItem="quD-CG-fcy" firstAttribute="width" secondItem="b14-TT-vLy" secondAttribute="width" id="dex-GN-epc"/>
-                            <constraint firstItem="quD-CG-fcy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jIH-Oj-kEG"/>
-                            <constraint firstItem="quD-CG-fcy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="p8X-4O-h4K"/>
-                            <constraint firstItem="b14-TT-vLy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="v14-HM-Gy4"/>
-                            <constraint firstItem="b14-TT-vLy" firstAttribute="height" secondItem="quD-CG-fcy" secondAttribute="height" id="vjQ-0q-dlw"/>
-                            <constraint firstItem="b14-TT-vLy" firstAttribute="top" secondItem="quD-CG-fcy" secondAttribute="bottom" constant="20" id="vtq-fW-VG3"/>
+                            <constraint firstItem="quD-CG-fcy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="5an-1d-7zM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b14-TT-vLy" secondAttribute="trailing" constant="20" id="8M7-GZ-BCE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="quD-CG-fcy" secondAttribute="trailing" constant="20" id="Qb1-b1-AkZ"/>
+                            <constraint firstItem="b14-TT-vLy" firstAttribute="height" secondItem="quD-CG-fcy" secondAttribute="height" id="cLu-tf-WIm"/>
+                            <constraint firstItem="b14-TT-vLy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dGN-wn-0Lg"/>
+                            <constraint firstItem="b14-TT-vLy" firstAttribute="top" secondItem="quD-CG-fcy" secondAttribute="bottom" constant="20" id="l3p-ph-jGJ"/>
+                            <constraint firstItem="quD-CG-fcy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wcG-xr-fjz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b14-TT-vLy" secondAttribute="bottom" constant="25" id="zeY-d0-phD"/>
                         </constraints>
                     </view>
                 </viewController>
